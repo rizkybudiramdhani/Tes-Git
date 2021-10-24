@@ -30,4 +30,3 @@ def menu() :
         	input("kembali menu utama")
         	menu()
     	elif pilih == 3:
-        	index_update=-1
