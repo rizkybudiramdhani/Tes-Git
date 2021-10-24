@@ -21,3 +21,13 @@ def menu() :
 	print("4. Hapus Data siswa")
 	print("5. Author")
 	print("6. keluar Aplikasi")
+	pilih = int(input("Masukkan pilihan anda : "))
+    	if pilih == 1 :
+        	pilih1()
+        	menu()
+    	elif pilih == 2:
+        	tampil()
+        	input("kembali menu utama")
+        	menu()
+    	elif pilih == 3:
+        	index_update=-1
